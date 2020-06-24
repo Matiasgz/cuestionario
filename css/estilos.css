@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#crono{
+    position: fixed;
+  
+    float: right;
+    font-size: 15px;
+    color:rgb(245, 245, 245);
+    border-radius: 5px;
+    border: 1px solid;
+    background: black;
+    text-align: center;
+
+
+}
+
+body {
+   
+    font-size: 120%;
+   background-color: #4b505a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #d4e2ff;
+    font-weight: 300;
+}
+
+ .logotipo img {
+     margin-top: 10px;
+     margin-left: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 200px;    
+    background: transparent;
+    background-color: rgba(13, 111, 238, 0.801);
+    box-shadow: 1px 1px 50px 10px  rgba(67, 78, 116, 0.637);
+    
+}
+
+
+header{
+    
+    
+    box-shadow: 10px 10px 100px 10px rgba(45, 75, 139, 0.637);
+    width: 100%;
+    height: 180px;
+ 
+ 
+   
+}
+
+#baner{
+    margin-top: auto;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.navCabecera{
+   
+    height: 100px;
+    position: absolute;
+    width: 100%;
+   
+
+   
+}
+
+.logotipo{
+    float: left;
+   
+  
+    
+}
+
+.menuNav{
+    margin-top: 150px;
+     float: right;
+     margin-right: 20px;
+     min-width: auto;
+    
+   
+}
+
+.menuNav  a {
+    text-decoration: none;
+    margin-right: 10px;
+    color:rgb(86, 94, 99);
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.menuNav  a:hover{
+    text-decoration: none;
+    margin-right: 5px;
+    color:rgb(169, 194, 206);
+    font-size: 18px;
+    box-shadow: 1px 1px rgba(13, 111, 238, 0.445);
+    border-radius: 10px;
+    transition: ease-out 0.2s;
+}
+#titulo{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+#intro{
+    clear: both;
+    float: left;
+    margin-top: 100px;
+    max-width: 600px;
+    width:  60%;
+    min-width: auto;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-bottom: 80px;
+    height: 150px;
+    transition: 0.5s;
+    background-image: url("img/fondoTit.png");
+    font-family: 'Cutive', serif;
+    font-size: 15px;
+    
+}
+
+#empezar{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    border-color: rgba(31, 136, 222, 0.46) ;
+    font-size: 14px;
+    box-shadow: 0 8px 32px rgba(31, 136, 222, 0.46);
+    background-color: rgba(31, 136, 222, 0.46);
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+   
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#empezar:focus{
+    outline: none;
+    border-color: rgba(31, 136, 222, 0.46) ;
+}
+
+#empezar:hover{
+    width: 100px;
+    height: 70px;
+    
+}
+
+.todasPreguntas{
+    margin-top: 160px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 60%;
+    min-width: auto;
+    float: left;
+    display: none;
+    
+
+}
+
+.pregunta {
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    min-width: auto;
+    margin-bottom: 100px;
+    background-color: #525b6e;
+    /*display: none;*/
+   
+
+}
+.pregunta h3{
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    background-color: #6995ee88;
+    font-family: 'Cutive', serif;
+    font-size: 15px;
+}
+
+
+.pregunta:hover{
+    box-shadow: 4px 8px 32px rgba(31, 136, 222, 0.46);
+}
+
+.respuestas{
+       
+        height: auto;
+        margin: 10px;
+        min-height: auto;  
+        min-width: auto;
+        padding-bottom: 30px;    
+        
+}
+
+.respuestaEscrita input:focus{
+    outline: none;
+   background-color: rgb(199, 250, 246);
+   border-radius: 10px;
+    border-color: rgba(31, 136, 222, 0.46) ;
+}
+
+.respuestaEscrita input{
+min-height: 30px;
+min-width: auto;
+width: 100%;
+margin-top: 10px;
+border-radius: 10px;
+border-color: rgba(31, 136, 222, 0.46) ;
+
+
+}
+
+.respuestaRadio input{
+margin-top: 10px;
+
+}
+.respuestaChecked input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+ }
+
+#enviar{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    border-color: rgba(31, 136, 222, 0.46) ;
+    font-size: 14px;
+    box-shadow: 0 8px 32px rgba(31, 136, 222, 0.46);
+    background-color: rgba(31, 136, 222, 0.46);
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+   
+}
+
+#enviar:hover{
+    box-shadow: 4px 4px 25px rgba(31, 136, 222, 0.46);
+    
+    color:rgba(23, 70, 131, 0.445);
+    background-color: rgb(181, 180, 194);
+        
+    
+}
+#enviar:focus{
+    outline: none;
+    border-color: rgba(31, 136, 222, 0.46) ;
+}
+
+aside{
+    float: right;   
+    width: 20%;
+    margin-top: 100px;
+    margin-right: 20px;
+    background-color: #4b505a;
+    min-width: auto;
+}
+
+aside div{
+    clear: both;
+    margin-bottom: 30px;
+    min-height: auto;
+  
+   
+    
+    
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    margin-bottom: 50px;
+    min-width: auto;
+}
+footer {
+    background: #f2f2f2;
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.partFooter {
+    width: 20%;
+    text-align: center;
+}
+
+.partFooter h4 {
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.partFooter a {
+    display: block;
+    text-decoration: none;
+    color: #5D6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+
+.partFooter a:hover {
+    color: rgba(31, 136, 222, 0.46);
+        
+
+}
+
+/*   respuestas */
+
+#rtas{
+    display: none;
+   
+    float: left;
+    margin-top: 100px;
+    max-width: 600px;
+    width:  60%;
+    min-width: auto;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-bottom: 30px;;
+    height: auto;
+    transition: 0.5s;
+}
+
+#rtas div{
+    border-radius: 20px;
+    margin: 10px;
+    min-height: 50px;
+    height: auto;
+    padding-top: 5px;
+}
+
+#rtas div div{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+label{
+    color: #d4e2ff;
+    margin-left: 15px;
+}
+
+#puntaje{
+    float: right;
+    color: whitesmoke;
+}
+
+
+
+

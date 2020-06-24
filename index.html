@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web matu</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Lexend+Tera&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body >
+    <header>
+
+        <nav class="navCabecera">
+
+            <div class="logotipo">
+                <a href="#">
+                    <img src="img/logomc.png" alt="">
+                </a>
+            </div>
+            <div class="menuNav">
+                <a href="#">Inicio</a>
+                <a href="#">Acerca de nosotros</a>
+                <a href="#">Contactenos</a>
+            </div>
+        </nav>
+        <img id="baner" src="img/fondoTit.png" alt="">
+
+    </header>
+
+    <div id="titulo">
+        <h1>Evaluacion WEB</h1>
+       
+    </div>
+
+    <div id="intro" >
+        <h2>¿Estas listo para empezar?</h2>
+        <p>Este es un cuestionario sobre conocimientos básicos de progragramacíon web el cual abarcara : <br>
+            Maquetacíon <strong> ( HTML ) </strong> <br>
+            Estilos de páginas <strong>( CSS )</strong> <br>
+            Programacíon del lado usuario <strong> ( JavaScript ) </strong> <br>
+            Son 9 preguntas en total, de las cuales deberán tener al menos 6 acertadas para lograr aprobar. 
+            Puede haber más de una opción correcta. <br>
+            
+            Solo tendrán 01:30 minutos para responder!!     <br>
+            
+                        
+            <strong> ÉXITOS </strong>!
+           </p>
+        <button id="empezar">Empezar</button>
+      
+    </div>
+  
+    <aside>
+        <div>
+            <a href="#">
+                <img src="img/aside1.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/aside2.png" alt="">
+            </a>
+        </div>
+    </aside>
+    
+    <div class="todasPreguntas" id="todas">
+        
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">Seccion HTML</h2>
+        <div class="pregunta" id="pregunta1" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaEscrita">
+                <h3 id="p1">¿Que significa HTML?</h3>
+                <div class="respuestas">
+                    <input id="respuesta1" type="text">
+                </div>
+            </section>
+        </div>
+
+
+        <div class="pregunta" id="pregunta2" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaEscrita">
+                <h3 id="p2">¿Se considera a HTML un lenguaje de programacion?</h3>
+                <div class="respuestas">
+                    <input id="respuesta2" type="text">
+                </div>
+            </section>
+        </div>
+
+        <div class="pregunta" id="pregunta3" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaEscrita">
+                <h3 id="p3">¿Que letra se coloca en las etiqueta HTML &lt; &gt; para referirse a un parrafo?</h3>
+                <div class="respuestas">
+                    <input id="respuesta3" type="text">
+                </div>
+            </section>
+        </div>
+
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">Seccion CSS</h2>
+
+        <div class="pregunta" id="pregunta4" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaRadio">
+                <h3 id="p4">¿Que atributo modifica el ancho de un bloque ?</h3>
+                <div class="respuestas" id="respuesta4">
+                    <label>
+                        <input type="radio" name="ancho" value="height">Height</label>
+                    <label>
+                        <input type="radio" name="ancho" value="width">Width</label>
+                    <label>
+                        <input type="radio" name="ancho" value="grosor">Grosor</label>
+                </div>
+            </section>
+        </div>
+
+        <div class="pregunta" id="pregunta5" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaRadio">
+                <h3 id="p5">¿Con que atributo se puede mofidicar el color de una letra ?</h3>
+                <div class="respuestas" id="respuesta5">
+                    <label>
+                        <input type="radio" name="colores" value="background-color">background-color
+                    </label>
+                    <label>
+                        <input type="radio" name="colores" value="color">color
+                    </label>
+                    <label>
+                        <input type="radio" name="colores" value="font-color">font-color
+                    </label>
+                </div>
+            </section>
+        </div>
+
+        <div class="pregunta" id="pregunta6" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaRadio">
+                <h3 id="p6">¿Que significado tiene el signo  &gt;  cuando se habla de selectores?</h3>
+                <div class="respuestas" id="respuesta6">
+                    <label>
+                        <input type="radio" name="signo" value="clases">Clases
+                    </label>
+                    <label>
+                        <input type="radio" name="signo" value="id">Id
+                    </label>
+                    <label>
+                        <input type="radio" name="signo" value="herencia">Herencia
+                    </label>
+                </div>
+            </section>
+        </div>
+
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">Seccion JavaScript</h2>
+        <div class="pregunta" id="pregunta7" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaChecked">
+                <h3 id="p7">¿Cuales de las siguientes declariones de variables soporta JavaScript?</h3>
+                <div class="respuestas" id="respuesta7">
+                    <label>
+                        <input type="checkbox" name="variables" value="var">Var</label>
+                    <label>
+                        <input type="checkbox" name="variables" value="int">Int</label>
+                    <label>
+                        <input type="checkbox" name="variables" value="const">Const</label>
+                </div>
+            </section>
+        </div>
+
+        <div class="pregunta" id="pregunta8" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaChecked">
+                <h3 id="p8">¿Que funcion cumple el metodo .sort() en una Array?</h3>
+                <div class="respuestas" id="respuesta8">
+                    <label>
+                        <input type="checkbox" name="metodo" value="Concatenar">Concatenar</label>
+                    <label>
+                        <input type="checkbox" name="metodo" value="Ordenar">Ordenar</label>
+                    <label>
+                        <input type="checkbox" name="metodo" value="Sumar">Sumar</label>
+                    <label>
+                        <input type="checkbox" name="metodo" value="Promediar">Promediar</label>
+                </div>
+            </section>
+        </div>
+
+        <div class="pregunta" id="pregunta9" data-aos="flip-left" data-aos-duration="2000">
+            <section class="respuestaChecked">
+                <h3 id="p9">¿Cuales de estos metodos no pertenecen a los metodos de string?</h3>
+                <div class="respuestas" id="respuesta9">
+                    <label>
+                        <input type="checkbox" name="str" value="Split()">Split()</label>
+                    <label>
+                        <input type="checkbox" name="str" value="floor()" >floor()</label>
+                    <label>
+                        <input type="checkbox" name="str" value="Slice()">Slice()</label>
+                    <label>
+                        <input type="checkbox" name="str" value="Match()">Match()</label>
+                    <label>
+                        <input type="checkbox" name="str" value="Log()">Log()</label>
+                    <label>
+                        <input type="checkbox" name="str" value="Search()">Search()</label>
+
+                </div>
+
+            </section>
+        </div>
+        <div>
+            <button id="enviar" onclick="terminado();" >enviar!</button>
+        </div>
+    </div>
+
+    <div id="crono">
+        
+    </div>
+
+    <div id="rtas">
+        <h1>respuestas</h1>
+        <div id="uno">
+            <div id="pUno">
+
+            </div>
+            <div id="rUno">
+
+            </div>
+        </div>
+
+        <div id="dos">
+            <div id="pDos">
+
+            </div>
+            <div id="rDos">
+
+            </div>
+        </div>
+
+        <div id="tres">
+            <div id="pTres">
+
+            </div>
+            <div id="rTres">
+
+            </div>
+        </div>
+
+        <div id="cuatro">
+            <div id="pCuatro">
+
+            </div>
+            <div id="rCuatro">
+
+            </div>
+        </div>
+
+        <div id="cinco">
+            <div id="pCinco">
+
+            </div>
+            <div id="rCinco">
+
+            </div>
+        </div>
+
+        <div id="seis">
+            <div id="pSeis">
+
+            </div>
+            <div id="rSeis">
+
+            </div>
+        </div> 
+        <div id="siete">
+            <div id="pSiete">
+
+            </div>
+            <div id="rSiete">
+
+            </div>
+        </div>
+        
+        <div id="ocho">
+            <div id="pOcho">
+
+            </div>
+            <div id="rOcho">
+
+            </div>
+        </div>
+
+        <div id="nueve">
+            <div id="pNueve">
+
+            </div>
+            <div id="rNueve">
+
+            </div>
+        </div>
+
+        <div id="puntaje">
+            
+        </div>
+
+    </div>
+
+
+
+
+
+    <footer>
+        <a href="#">
+            <img src="img/logoFooter.png" alt="">
+        </a>
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Services 1</a>
+            <a href="#">Services 2</a>
+            <a href="#">Services 3</a>
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#">About 1</a>
+            <a href="#">About 2</a>
+            <a href="#">About 3</a>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
