@@ -1,4 +1,4 @@
-//funcion para imprimir reloj
+//funcion para imprimir el  reloj
 
 minuto = 1;// momentoActual.getMinutes()
 segundo = 29;// momentoActual.getSeconds()
